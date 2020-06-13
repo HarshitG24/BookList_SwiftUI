@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEB004A3247C0F25000B0371 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB004A2247C0F25000B0371 /* AddBookView.swift */; };
+		EEB004A6247C10F0000B0371 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB004A5247C10F0000B0371 /* Data.swift */; };
+		EEB004A8247C1E80000B0371 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB004A7247C1E80000B0371 /* RatingView.swift */; };
 		EEB17979247C09CA00045F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB17978247C09CA00045F81 /* AppDelegate.swift */; };
 		EEB1797B247C09CA00045F81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1797A247C09CA00045F81 /* SceneDelegate.swift */; };
 		EEB1797E247C09CA00045F81 /* BookWorm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEB1797C247C09CA00045F81 /* BookWorm.xcdatamodeld */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEB004A2247C0F25000B0371 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		EEB004A5247C10F0000B0371 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EEB004A7247C1E80000B0371 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		EEB17975247C09CA00045F81 /* BookWorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookWorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB17978247C09CA00045F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEB1797A247C09CA00045F81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEB004A1247C0F0D000B0371 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB004A2247C0F25000B0371 /* AddBookView.swift */,
+				EEB004A7247C1E80000B0371 /* RatingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB004A4247C10E6000B0371 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EEB004A5247C10F0000B0371 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		EEB1796C247C09CA00045F81 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +81,8 @@
 		EEB17977247C09CA00045F81 /* BookWorm */ = {
 			isa = PBXGroup;
 			children = (
+				EEB004A4247C10E6000B0371 /* Data */,
+				EEB004A1247C0F0D000B0371 /* View */,
 				EEB17978247C09CA00045F81 /* AppDelegate.swift */,
 				EEB1797A247C09CA00045F81 /* SceneDelegate.swift */,
 				EEB1797F247C09CA00045F81 /* ContentView.swift */,
@@ -150,9 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB1797E247C09CA00045F81 /* BookWorm.xcdatamodeld in Sources */,
+				EEB004A6247C10F0000B0371 /* Data.swift in Sources */,
 				EEB17979247C09CA00045F81 /* AppDelegate.swift in Sources */,
 				EEB17980247C09CA00045F81 /* ContentView.swift in Sources */,
 				EEB1797B247C09CA00045F81 /* SceneDelegate.swift in Sources */,
+				EEB004A3247C0F25000B0371 /* AddBookView.swift in Sources */,
+				EEB004A8247C1E80000B0371 /* RatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
